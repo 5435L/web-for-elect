@@ -1,0 +1,64 @@
+.venue-1,
+.venue-2,
+.venue-3,
+.venue-4,
+.venue-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 125px;
+}
+.venue-1-container,
+.venue-2-container,
+.venue-3-container,
+.venue-4-container,
+.venue-5-container {
+    width: 50%;
+    height: 50%;
+    transform: translate(0%, 0%);
+    box-shadow: 5px 4px 20px 20px rgba(0, 0, 0, .6);
+    border-radius: 12px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .4s ease-in-out;
+    background: black;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.main-content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: Roboto, Arial;
+    text-align: center;
+    border-radius: 12px;
+}
+.venue-1-container:hover .overlay {
+    opacity: .8;
+}
+.venue-2-container:hover .overlay {
+    opacity: .8;
+}
+.venue-3-container:hover .overlay {
+    opacity: .8;
+}
+.venue-4-container:hover .overlay {
+    opacity: .8;
+}
+.venue-5-container:hover .overlay {
+    opacity: .8;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}

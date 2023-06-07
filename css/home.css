@@ -1,0 +1,190 @@
+body {
+    background-image: url(w3back.jpg);
+    background-attachment: scroll;
+    background-position: center ;
+    background-repeat: repeat-y;
+    background-size: cover;
+    padding: 20px;
+
+    height: 5000px;
+}
+.header{
+    display: flex;
+}
+.header-div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para1 {
+    color:rgb(133, 27, 119);
+    font-family: Roboto, Arial;
+    font-size: 20px;
+}
+.header-div-2 {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.wedding-logo-1 {
+    width: 25%;
+}
+p {
+    margin: 0;
+}
+
+
+
+
+
+.system-description {
+    box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 12px;
+  
+    padding: 20px;
+    color: white;
+    
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.system-description-para-2,
+.system-description-para-1 {
+    color: white;
+    font-family: Roboto, Arial;
+    line-height: 24px;
+    text-align: justify;
+}
+.system-description-para-1 {
+    color: rgb(133, 27, 119);
+    font-size: 18px;
+    font-weight: bold;
+}
+.system-description-para-2 {
+    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .3);
+    padding: 10px;
+    border-radius: 12px;
+
+    font-family: Roboto, Arial;
+    color: white;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.system-ability {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 50px;
+}
+.system-ability-1,
+.system-ability-2,
+.system-ability-3 {
+    background-color: rgba(0, 0, 0, .3);
+    padding: 10px;
+    border-radius: 12px;
+
+    font-family: Roboto, Arial;
+    color: white;
+    line-height: 24px;
+    text-align: justify;
+}
+.system-ability-1-icon,
+.system-ability-2-icon,
+.system-ability-3-icon,
+.system-venue-description-icon{
+    font-size: 40px;
+    color:rgb(133, 27, 119)
+}
+
+.system-capabilities {
+    margin-top: 70px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, .6);
+    border-radius: 12px;
+}
+.system-capabilities-para-1 {
+    color: rgb(133, 27, 119);
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.hilltop-1 {
+    width: 50%
+}
+
+.system-venues {
+    margin-top: 70px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, .6);
+    border-radius: 12px;
+}
+.system-venues-para-1 {
+    color: rgb(133, 27, 119);
+    font-family: Roboto, Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.system-venue-description {
+    background-color: rgba(0, 0, 0, .3);
+    padding: 10px;
+    border-radius: 12px;
+
+    font-family: Roboto, Arial;
+    color: white;
+    line-height: 24px;
+    text-align: justify;
+    word-spacing: 3px;
+}
+
+.creator-mother-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creator-info-mother {
+    width: 15%;
+    margin-top: 70px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, .6);
+    border-radius: 12px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 30px;
+}
+.creator-info {
+    width: 80%;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, .6);
+    border-radius: 12px;
+}
+
+.creator-info-para-1 {
+    color: #ffffff;
+    font-family: Roboto, Arial;
+    text-align: center;
+}
+.creator-info-icon {
+    color: white;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, .6);
+    border-radius: 150px;
+    padding: 10px;
+}

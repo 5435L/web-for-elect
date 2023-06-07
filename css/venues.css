@@ -1,0 +1,85 @@
+.htg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+.htg-1,
+.htg-2,
+.htg-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+    transition: .7s;
+}
+img {
+    width: 85%;
+    height: 85%;
+}
+.ht-pic-1,
+.ht-pic-2,
+.ht-pic-3 {
+    transition: .7s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.ht-pic-1:hover {
+    transform: scale(1.12);
+    transition: .7s;
+    border-radius: 12px;
+}
+.ht-pic-2:hover {
+    transform: scale(1.12);
+    transition: .7s;
+    border-radius: 12px;
+}
+.ht-pic-3:hover {
+    transform: scale(1.12);
+    transition: .7s;
+    border-radius: 12px;
+}
+
+.htg-description {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .3);
+}
+.htg-description  p {
+    padding: 10px;
+    border-radius: 12px;
+    font-family: Roboto, Arial;
+    color: white;
+    text-align: center;
+}
+.htg-description-para {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .6);
+    transition: .7s;
+}
+.htg-description-para:hover {
+    transform: scale(1.12);
+    transition: .7s;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.back-bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.bck {
+    color: white;
+    font-size: 30px;
+    background: rgba(0, 0, 0, .7);
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 150px;
+}
